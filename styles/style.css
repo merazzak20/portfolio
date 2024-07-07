@@ -1,0 +1,180 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.secendary-bg{
+    background-color: #fff8f3;
+}
+
+.dark{
+    color: #888;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    color: #888;
+    font-size: 18px;
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav > .logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary-color{
+    color: #fd6e0a;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #888;
+}
+
+.btn-primary{
+    background-color: #fd6e0a;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+/* Hero Styles */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 230px;
+}
+.hero_content{
+    max-width: 580px;
+}
+.hero-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.hero-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.hero-img img{
+    width: 580px;
+}
+
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+.about{
+    margin-top: 50px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .item-description{
+    font-weight: bold;
+}
+
+/* Skills Styles */
+.skills{
+    margin-bottom: 50px;
+}
+.section-info{
+    text-align: center;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.skill-item{
+    width: 23%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
+}
+.s-logo img{
+    width: 30px;
+}
+.s-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.skill-item.section-description{
+    margin-top: 0px;
+}
+
+/* CV Styles */
+.education-container{
+    display: flex;
+}
+.column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.edu-title, .job-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.edu-insti, .job-insti{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.edu-description, .job-description{
+    font-size: 16px;
+}
+
