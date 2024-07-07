@@ -1,6 +1,9 @@
 
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
