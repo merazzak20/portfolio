@@ -27,6 +27,8 @@
     font-size: 18px;
 }
 
+
+/* Header Style */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -154,8 +156,11 @@ main{
 }
 
 /* CV Styles */
+
 .education-container{
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 .column-title{
     font-size: 30px;
@@ -177,4 +182,12 @@ main{
 .edu-description, .job-description{
     font-size: 16px;
 }
+.edu-button{
+    text-align: center;
+    margin-top: 20px;
+}
 
+/* Footer Start */
+.footer{
+    background-color: ;
+}
